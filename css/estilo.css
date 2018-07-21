@@ -1,0 +1,76 @@
+body{
+    margin: 0%;
+    background-color: rgb(202, 199, 199);
+}
+
+h1{
+    color: rgb(15, 114, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+nav{
+    height: 30px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#botoes{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+/*aqui são formatados os links de cima */
+.linkdecima{
+    color: rgb(36, 35, 35);
+    text-decoration: none;
+    font-size: 16pt;
+    text-transform: uppercase;
+}
+
+button{
+    background-color:rgb(15, 114, 206);
+    border: 1px solid rgb(17, 177, 137);
+    border-radius: 15px;
+
+}
+
+section{
+    margin: 30px auto;
+    display: flex;
+    width: 60vw;
+    background-color: gray;
+}
+
+#segunda{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+
+}
+p{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: center;
+    color: white;
+}
+
+#gato{
+    border-radius: 50%;
+}
+
+#gato2{
+    border-radius: 50%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
